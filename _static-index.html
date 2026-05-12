@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pampa Empanadas | Argentine Food in Springfield MO</title>
+  <link rel="icon" type="image/png" href="img/logo-pampaemapandas-negro.png">
+  <meta name="description"
+    content="Authentic Argentine empanadas handcrafted in Springfield, MO. 30+ flavors, online ordering, pickup ready in 15 minutes.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Analytics Tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-PRLNTLBH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'GTM-PRLNTLBH');
+  </script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link">
+        <img src="img/logo-pampaemapandas-negro.png" alt="Pampa Empanadas" class="logo-img">
+      </a>
+
+      <button class="mobile-toggle" id="mobile-toggle">☰</button>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">Our Story</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:4173655151" class="header-phone">
+          📞 (417) 365-5151
+        </a>
+        <div class="cart-icon" onclick="window.location.href='menu.html'">
+          🛒 <span class="cart-count">0</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="img/local.jpg" alt="Pampa Empanadas Storefront" class="hero-bg" style="object-position: center 25%;">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">Authentic Argentine Empanadas</h1>
+      <p class="hero-subtitle">Handcrafted with bold traditional flavors · Springfield, MO</p>
+
+      <div class="hero-buttons">
+        <a href="menu.html" class="btn btn-primary">ORDER NOW →</a>
+        <a href="menu.html" class="btn btn-secondary">VIEW MENU</a>
+      </div>
+
+      <div class="quick-info-bar">
+        <div class="quick-info-item">🕐 Open Tue–Sun · 11am–8pm</div>
+        <div class="quick-info-item">📍 3302 S National Ave F, Springfield MO</div>
+        <div class="quick-info-item">⚡ Ready in 15 min · Pickup Available</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Proof -->
+  <section class="social-proof">
+    <div class="container">
+      <div class="trust-bar">
+        <div class="trust-item">
+          <div class="trust-number">⭐ 4.8/5</div>
+          <div class="trust-label">Rating</div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-number">🥟 30+</div>
+          <div class="trust-label">Flavors</div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-number">❤️ 500+</div>
+          <div class="trust-label">Happy Customers</div>
+        </div>
+      </div>
+
+      <div class="section-header">
+        <h2 class="section-title">Don't take our word for it</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Best empanadas in Missouri! The spicy beef is out of this world."</p>
+          <div class="testimonial-author">
+            Sarah M. <span class="review-source">Google Review</span>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Authentic flavors. Takes me right back to Buenos Aires."</p>
+          <div class="testimonial-author">
+            Carlos R. <span class="review-source">Google Review</span>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Fast pickup and always hot. The combos are a great deal!"</p>
+          <div class="testimonial-author">
+            Emily T. <span class="review-source">Google Review</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section categories">
+    <div class="container">
+      <div class="categories-grid">
+        <a href="menu.html#meat" class="category-card">
+          <img src="img/spicy_beef.jpg" alt="Meat" class="category-bg">
+          <div class="category-overlay"></div>
+          <div class="category-content">
+            <h3>Meat Empanadas</h3>
+            <p>15+ savory options</p>
+            <span class="btn btn-outline" style="color: white; border-color: white;">View All</span>
+          </div>
+        </a>
+        <a href="menu.html#cheese" class="category-card">
+          <img src="img/ham__cheese.jpg" alt="Cheese" class="category-bg">
+          <div class="category-overlay"></div>
+          <div class="category-content">
+            <h3>Cheese Empanadas</h3>
+            <p>For cheese lovers</p>
+            <span class="btn btn-outline" style="color: white; border-color: white;">View All</span>
+          </div>
+        </a>
+        <a href="menu.html#sweet" class="category-card">
+          <img src="img/dulce_de_leche.jpg" alt="Sweet" class="category-bg">
+          <div class="category-overlay"></div>
+          <div class="category-content">
+            <h3>Sweet Empanadas</h3>
+            <p>Dessert in every bite</p>
+            <span class="btn btn-outline" style="color: white; border-color: white;">View All</span>
+          </div>
+        </a>
+        <a href="about.html" class="category-card">
+          <img src="img/local.jpg" alt="Our Story" class="category-bg" style="object-position: center 30%;">
+          <div class="category-overlay"></div>
+          <div class="category-content">
+            <h3>Our Story</h3>
+            <p>Born in Argentina, made in Springfield</p>
+            <span class="btn btn-outline" style="color: white; border-color: white;">Meet Us</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Most Popular -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Most Popular</h2>
+        <p>Our best-selling flavors, handcrafted daily</p>
+      </div>
+      <div class="products-grid" id="popular-grid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Order -->
+  <section class="section how-to-order">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">🛒 Order in 3 Easy Steps</h2>
+        <p>Ready in 15 minutes · Pickup available · No account needed</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div class="step-icon">🥟</div>
+          <h3 class="step-title">Browse the Menu</h3>
+          <p class="step-desc">Explore 30+ handcrafted empanada flavors — savory, sweet, and everything in between.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div class="step-icon">📲</div>
+          <h3 class="step-title">Place Your Order</h3>
+          <p class="step-desc">Call us or order online. No account required — just pick your favorites and go.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div class="step-icon">⚡</div>
+          <h3 class="step-title">Pick Up & Enjoy</h3>
+          <p class="step-desc">Your order is hot and ready in ~15 minutes at 3302 S National Ave F, Springfield MO.</p>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 2.5rem;">
+        <a href="menu.html" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 2.5rem;">START YOUR ORDER →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram Gallery -->
+  <section class="section instagram-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">📸 Follow Our Journey</h2>
+        <p style="color: var(--text-light); font-size: 1.1rem;">Real food. Real flavors. Straight from our kitchen.</p>
+        <a href="https://instagram.com/_pampaempanadas" target="_blank" class="insta-handle">
+          @_pampaempanadas
+        </a>
+      </div>
+
+      <div class="insta-grid">
+        <div class="insta-item">
+          <img src="img/galeria_letrero.jpg" alt="Pampa Empanadas Sign">
+          <div class="insta-overlay"><span>📍 Pampa Empanadas</span></div>
+        </div>
+        <div class="insta-item">
+          <img src="img/galeria_interior1.jpg" alt="Interior del local">
+          <div class="insta-overlay"><span>🏠 Nuestro local</span></div>
+        </div>
+        <div class="insta-item">
+          <img src="img/galeria_interior2.jpg" alt="Interior con pantalla">
+          <div class="insta-overlay"><span>⚽ Fútbol y empanadas</span></div>
+        </div>
+        <div class="insta-item">
+          <img src="img/galeria_interior3.jpg" alt="Vista del salón">
+          <div class="insta-overlay"><span>🇦🇷 Ambiente argentino</span></div>
+        </div>
+        <div class="insta-item insta-item--wide">
+          <img src="img/local.jpg" alt="Decoración argentina">
+          <div class="insta-overlay"><span>🏆 Visítanos en Springfield, MO</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo-link" style="margin-bottom: 1rem; display: inline-flex;">
+            <img src="img/logo-pampaemapandas-negro.png" alt="Pampa Empanadas" class="logo-img logo-img-footer">
+          </a>
+          <p style="color: #999; margin-bottom: 1.5rem;">Authentic Argentine empanadas handcrafted with traditional
+            flavors.</p>
+          <div style="font-size: 1.5rem;">
+            <a href="https://instagram.com/_pampaempanadas" target="_blank" style="color: white;">📸
+              @_pampaempanadas</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="menu.html#meat">Meat Empanadas</a></li>
+            <li><a href="menu.html#cheese">Cheese Empanadas</a></li>
+            <li><a href="menu.html#sweet">Sweet Empanadas</a></li>
+            <li><a href="menu.html#combos">Combo Deals</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact & Hours</h4>
+          <ul class="footer-links" style="color: #999;">
+            <li>3302 S National Ave F</li>
+            <li>Springfield, MO 65807</li>
+            <li><a href="tel:4173655151" style="color: white;">(417) 365-5151</a></li>
+            <li style="margin-top: 1rem;">Tue-Sun: 11am - 8pm</li>
+            <li>Mon: Closed</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Pampa Empanadas · Springfield, MO</div>
+        <div class="payment-icons">💳 💵</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Elements -->
+  <a href="https://wa.me/14173655151?text=Hello!%20I%20want%20to%20order%20empanadas" class="whatsapp-float"
+    target="_blank">
+    💬
+  </a>
+
+  <div class="mobile-cta">
+    <a href="menu.html" class="btn btn-primary">🛒 ORDER NOW</a>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
